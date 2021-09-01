@@ -1,0 +1,135 @@
+body,
+html {
+  background: #edeef0;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+body {
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Geneva, 'Noto Sans Armenian',
+    'Noto Sans Bengali', 'Noto Sans Cherokee', 'Noto Sans Devanagari', 'Noto Sans Ethiopic', 'Noto Sans Georgian',
+    'Noto Sans Hebrew', 'Noto Sans Kannada', 'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Osmanya', 'Noto Sans Tamil',
+    'Noto Sans Telugu', 'Noto Sans Thai', sans-serif, arial, Tahoma, verdana;
+  line-height: 1.154;
+  font-weight: 400;
+  height: 100vh;
+}
+
+.loading_box {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.height_inherit {
+  height: inherit !important;
+}
+
+.no_padding {
+  padding: 0 !important;
+}
+
+.no_margin {
+  margin: 0 !important;
+}
+
+.clear_fix {
+  display: block;
+}
+
+/* input:focus, input:hover, input:visited {
+    outline-offset: 0px;
+    border: none;
+} */
+.flat_button,
+.button_gray button,
+.button_blue button {
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  white-space: nowrap;
+  outline: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', Geneva, 'Noto Sans Armenian',
+    'Noto Sans Bengali', 'Noto Sans Cherokee', 'Noto Sans Devanagari', 'Noto Sans Ethiopic', 'Noto Sans Georgian',
+    'Noto Sans Hebrew', 'Noto Sans Kannada', 'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Osmanya', 'Noto Sans Tamil',
+    'Noto Sans Telugu', 'Noto Sans Thai', sans-serif, arial, Tahoma, verdana;
+  vertical-align: top;
+  line-height: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 7px 16px 8px;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  background: 0 0;
+  background-color: #5181b8;
+  border: 0;
+  border-radius: 4px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.flat_button.secondary.button_light,
+.box_controls .flat_button.secondary {
+  background-color: transparent;
+}
+
+.flat_button.secondary.button_light,
+.box_controls .flat_button.secondary {
+  color: #2a5885;
+}
+
+.flat_button.secondary.button_light:hover {
+  background-color: #dce1e6;
+}
+
+.ant-form-item-control {
+  position: relative !important;
+}
+
+.ant-form-item-explain-error {
+  position: absolute !important;
+  top: -15px !important;
+  color: red !important;
+}
+
+.ant-form-item {
+  margin: 15px 0 !important;
+}
+
+.ant-form-item-label {
+  margin: 2px 0 11px 1px !important;
+  color: #818c99;
+  font-size: 14px;
+  line-height: 17px;
+}
+.ant-radio-wrapper span {
+  margin: 3px 5px;
+}
+.ant-radio {
+  margin-top: 5px !important;
+}
+.video-react .video-react-big-play-button,
+.video-react:hover .video-react-big-play-button,
+.video-react .video-react-big-play-button:focus {
+  width: 3em !important;
+  height: 3em !important;
+  line-height: 3em !important;
+  border-radius: 50% !important;
+  top: 42% !important;
+  left: 42% !important;
+}
+.video-react .video-react-big-play-button:before {
+  font-size: 60px;
+}
+.emoji-mart {
+  position: absolute;
+  right: 44px;
+  top: 45px;
+  z-index: 3;
+}

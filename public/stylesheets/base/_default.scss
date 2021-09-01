@@ -1,0 +1,20 @@
+@import "~video-react/styles/scss/video-react";
+@import "./variabels";
+
+body,
+html {
+    background: $bg_body;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Geneva, "Noto Sans Armenian",
+        "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian",
+        "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya",
+        "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial, Tahoma, verdana;
+    line-height: 1.154;
+    font-weight: 400;
+}
+

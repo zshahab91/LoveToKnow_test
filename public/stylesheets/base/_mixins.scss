@@ -1,0 +1,173 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+  }
+  
+  @mixin placeholder {
+    &::-webkit-input-placeholder {
+      @content
+    }
+    &:-moz-placeholder {
+      @content
+    }
+    &::-moz-placeholder {
+      @content
+    }
+    &:-ms-input-placeholder {
+      @content
+    }
+    &::-ms-input-placeholder {
+      @content
+    }
+  }
+  
+  @mixin transition($property, $duration, $function) {
+    -webkit-transition: $property $duration $function;
+    -ms-transition: $property $duration $function;
+    -o-transition: $property $duration $function;
+    -moz-transition: $property $duration $function;
+    transition: $property $duration $function;
+  }
+  
+  @mixin rotate($rotate) {
+    -webkit-transform: rotate($rotate);
+    -ms-transform: rotate($rotate);
+    -o-transform: rotate($rotate);
+    -moz-transform: rotate($rotate);
+    transform: rotate($rotate);
+  }
+  
+  @mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+    @if $inset {
+      -webkit-box-shadow: inset $top $left $blur $spread $color;
+      -moz-box-shadow: inset $top $left $blur $spread $color;
+      box-shadow: inset $top $left $blur $spread $color;
+    } @else {
+      -webkit-box-shadow: $top $left $blur $spread $color;
+      -moz-box-shadow: $top $left $blur $spread $color;
+      box-shadow: $top $left $blur $spread $color;
+    }
+  }
+  @mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+      @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+      @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+      @content;
+    }
+    @-o-keyframes #{$animation-name} {
+      @content;
+    }  
+    @keyframes #{$animation-name} {
+      @content;
+    }
+  }
+  
+  @mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};      
+  }
+  
+  @include keyframes(circle-2-out-top) {
+    to {
+        top: -100px;
+        opacity: 0;
+    }
+  }
+  @include keyframes(bg-in-bottom)  {
+    to {
+        top: 0%;
+    }
+  }
+  
+  @include keyframes(image-in-bottom) {
+    to {
+        top: 100px;
+    }
+  }
+  @include keyframes(circle-1-in-bottom) {
+  
+    to {
+        bottom: 5px;
+    }
+  }
+  @include keyframes(circle-2-in-bottom) {
+    to {
+        top: 32px;
+        opacity: 1;
+        animation-delay: 0.8s;
+    }
+  }
+  @include keyframes(bg-out-bottom) {
+    to {
+        top: 0%;
+    }
+  }
+  @include keyframes(image-out-bottom) {
+    to {
+        top: 200%;
+        opacity: 0;
+    }
+  }
+  @include keyframes(circle-1-out-bottom) {
+    to {
+        bottom: -100px;
+        opacity: 0;
+    }
+  }
+  @include keyframes(circle-2-out-bottom) {
+  
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+  }
+  @include keyframes(bg-in-top) {
+    100% {
+        bottom: 0%;
+    }
+  }
+  @include keyframes(image-in-top) {
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+  }
+  @include keyframes(circle-1-in-top) {
+    to {
+        bottom: 5px;
+    }
+  }
+  @include keyframes(circle-2-in-top) {
+    to {
+        top: 32px;
+    }
+  }
+  @include keyframes(bg-out-top) {
+    to {
+        top: -200%;
+        opacity: 0;
+    }
+  }
+  @include keyframes(image-out-top) {
+    to {
+        top: -100%;
+        opacity: 0;
+    }
+  }
+  @include keyframes(circle-1-out-top) {
+    to {
+        bottom: 5px;
+        opacity: 0;
+    }
+  }
+  
