@@ -10,6 +10,9 @@ const nextConfig = {
   webpack: (config, { defaultLoaders, isServer }) => {
     if (!isServer) {
       config.resolve.alias['@sentry/node'] = '@sentry/browser';
+      config.node = {
+        fs: 'empty',
+      };
     }
     return config;
   },
