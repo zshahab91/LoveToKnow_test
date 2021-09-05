@@ -10,7 +10,7 @@
     "server": "yarn build && NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.6.2",
+    "@ant-design/icons": "^4.6.4",
     "@next/bundle-analyzer": "^10.2.0",
     "antd": "^4.15.5",
     "axios": "^0.21.1",
