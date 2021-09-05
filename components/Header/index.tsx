@@ -10,7 +10,7 @@ const HeaderLayout: React.FC = () => {
       <div className={cs('container', 'height_inherit')}>
         <div className={s.header_nav}>
           <div className={s.header_nav__item}>
-            <img src={logoPath} />
+            <img src={logoPath} width="100" height="50" />
           </div>
         </div>
       </div>

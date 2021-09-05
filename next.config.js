@@ -17,5 +17,4 @@ const nextConfig = {
     return config;
   },
 };
-
 module.exports = withPlugins([[withImages], [withBundleAnalyzer], [withOffline]], nextConfig);

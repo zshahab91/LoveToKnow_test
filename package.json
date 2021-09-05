@@ -23,8 +23,10 @@
     "next": "9.4.4",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.7.0",
+    "path": "^0.12.7",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "read-file": "^0.2.0",
     "sass": "^1.32.13"
   },
   "devDependencies": {
