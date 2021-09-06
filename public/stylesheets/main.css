@@ -108,28 +108,10 @@ button:focus {
   font-size: 14px;
   line-height: 17px;
 }
-.ant-radio-wrapper span {
-  margin: 3px 5px;
+.ant-upload-list-item {
+  height: 35px;
+  border-bottom: 1px solid #f7f7f7;
 }
-.ant-radio {
-  margin-top: 5px !important;
-}
-.video-react .video-react-big-play-button,
-.video-react:hover .video-react-big-play-button,
-.video-react .video-react-big-play-button:focus {
-  width: 3em !important;
-  height: 3em !important;
-  line-height: 3em !important;
-  border-radius: 50% !important;
-  top: 42% !important;
-  left: 42% !important;
-}
-.video-react .video-react-big-play-button:before {
-  font-size: 60px;
-}
-.emoji-mart {
-  position: absolute;
-  right: 44px;
-  top: 45px;
-  z-index: 3;
+.ant-upload-list-item-card-actions-btn {
+  opacity: 1;
 }
